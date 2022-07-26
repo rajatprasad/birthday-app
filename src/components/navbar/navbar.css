@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+.left {
+  padding-left: 50px;
+}
+
+.left a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.left a h1 {
+  padding-left: 10px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 30px;
+}
+
+.right h3 {
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.right h3:hover {
+  background-color: #e4f1fa;
+  border-radius: 50px;
+}
+
+.right a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 480px) {
+  .right {
+    padding-right: 10px;
+  }
+
+  .left {
+    padding-left: 10px;
+  }
+}

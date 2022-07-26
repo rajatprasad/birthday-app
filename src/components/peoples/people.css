@@ -1,0 +1,46 @@
+.people {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.people__title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+}
+
+.users img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.table a {
+  text-decoration: none;
+}
+
+/* .edit__btn {
+  background-color: rgb(28, 28, 26) !important;
+  color: #fff;
+} */
+
+.delete__btn {
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .people {
+    padding: 10px;
+  }
+}
