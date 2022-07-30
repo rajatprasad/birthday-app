@@ -1,7 +1,7 @@
 import React from "react";
 import defaultDp from "../images/default.jpeg";
 
-const List = ({ data, flag }) => {
+const List = ({ data, flag, clickHandler }) => {
   function countdown(birthyear) {
     const currentYear = new Date().getFullYear();
     const birthMonth = new Date(birthyear).getMonth() + 1;
@@ -52,8 +52,8 @@ const List = ({ data, flag }) => {
     <div className="list">
       {data.map((person, index) => {
         return (
-          <p key={index}>
-            <div className="flex" style={bgColor}>
+          <h2 key={index}>
+            <div className="flex" style={bgColor} onClick={clickHandler}>
               <img src={person.img || defaultDp} alt="" />
               <div className="title">
                 <h3 className="name">{person.name}</h3>
@@ -62,7 +62,7 @@ const List = ({ data, flag }) => {
                 </h5>
               </div>
             </div>
-          </p>
+          </h2>
         );
       })}
     </div>

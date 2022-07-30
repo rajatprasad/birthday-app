@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
   background-color: #f7fafc;
   color: #2d3748;
@@ -24,6 +24,7 @@
 
 .left a h1 {
   padding-left: 10px;
+  font-size: 26px;
 }
 
 .logo {
